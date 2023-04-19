@@ -40,6 +40,9 @@ class ScienceQuizViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         updateQuestion()
+        //add category
+        let mainDelegate = UIApplication.shared.delegate as! AppDelegate
+        mainDelegate.quizScore[0].initWithCategory(inCategogy: "Science")
     }
     
     @IBAction func answerButtonPressed(_ sender: UIButton) {

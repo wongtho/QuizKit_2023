@@ -15,6 +15,11 @@ class ResultViewController: UIViewController {
         ReturnButton.layer.masksToBounds = true
         
         scoreLabel.text = "\(score)/\(totalQuestions)"
+        //add score
+        let mainDelegate = UIApplication.shared.delegate as! AppDelegate
+        mainDelegate.quizScore[0].initWithScore(inScore: score)
+        //save to db
+        mainDelegate.insertIntoDatabase(scoreInfo: mainDelegate.quizScore[0])
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
