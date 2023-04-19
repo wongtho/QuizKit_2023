@@ -45,7 +45,7 @@ class ViewController: UIViewController {
     func dispatchNotification() {
         let notificationCenter = UNUserNotificationCenter.current()
         let title = "QuickCard started!"
-        let body = "Playing quiz"
+        let body = "Resume quiz"
 
         let content = UNMutableNotificationContent()
         content.title = title
