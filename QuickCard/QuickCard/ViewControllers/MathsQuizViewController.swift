@@ -1,24 +1,24 @@
 import UIKit
 
-class QuizViewController: UIViewController {
-    
+class MathsQuizViewController: UIViewController {
+
     let questions = [
-        "What is the capital of France?",
-        "What is the largest planet in our solar system?",
-        "What is the highest mountain in the world?",
-        "Who invented the telephone?",
-        "What is the smallest country in the world?"
+        "What is 2+2?",
+        "What is the square root of 64?",
+        "What is 5*3?",
+        "What is 9/3?",
+        "What is 10-7?"
     ]
-    
+
     let answers = [
-        ["Paris", "Madrid", "London"],
-        ["Jupiter", "Saturn", "Neptune"],
-        ["Mount Kilimanjaro", "Mount Everest", "Mount McKinley"],
-        ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla"],
-        ["Vatican City", "Monaco", "San Marino"]
+        ["4", "2", "5"],
+        ["4", "8", "16"],
+        ["15", "10", "3"],
+        ["3", "6", "1"],
+        ["3", "4", "2"]
     ]
     
-    let correctAnswers = [0, 0, 1, 0, 0]
+    let correctAnswers = [0, 1, 0, 1, 1]
     
     var currentQuestion = 0
     var score = 0
@@ -60,7 +60,5 @@ class QuizViewController: UIViewController {
             resultVC.score = score
             resultVC.totalQuestions = questions.count
         }
-        
-        
     }
 }

@@ -1,25 +1,32 @@
+//
+//  ScienceQuizViewController.swift
+//  QuickCard
+//
+//  Created by PRANAV on 19/04/2023.
+//
+
 import UIKit
 
-class QuizViewController: UIViewController {
-    
+class ScienceQuizViewController: UIViewController {
+
     let questions = [
-        "What is the capital of France?",
-        "What is the largest planet in our solar system?",
-        "What is the highest mountain in the world?",
-        "Who invented the telephone?",
-        "What is the smallest country in the world?"
-    ]
-    
-    let answers = [
-        ["Paris", "Madrid", "London"],
-        ["Jupiter", "Saturn", "Neptune"],
-        ["Mount Kilimanjaro", "Mount Everest", "Mount McKinley"],
-        ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla"],
-        ["Vatican City", "Monaco", "San Marino"]
-    ]
-    
-    let correctAnswers = [0, 0, 1, 0, 0]
-    
+         "What is the largest organ in the human body?",
+         "What is the smallest unit of life?",
+         "What is the Earth's primary source of energy?",
+         "What does DNA stand for?",
+         "What type of animal is a narwhal?"
+     ]
+
+     let answers = [
+         ["Skin", "Brain", "Liver"],
+         ["Cell", "Atom", "Molecule"],
+         ["Sun", "Moon", "Fossil fuels"],
+         ["Deoxyribonucleic Acid", "Digital Network Architecture", "Dynamic Network Administration"],
+         ["Whale", "Seal", "Fish"]
+     ]
+     
+     let correctAnswers = [0, 0, 2, 0, 2]
+     
     var currentQuestion = 0
     var score = 0
     
