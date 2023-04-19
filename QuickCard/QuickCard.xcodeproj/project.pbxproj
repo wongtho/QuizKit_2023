@@ -15,13 +15,13 @@
 		2AE6330429EFA76400CE8FBC /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6330329EFA76400CE8FBC /* LaunchViewController.swift */; };
 		2AE6330629EFBA5400CE8FBC /* Avatar2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2AE6330529EFBA5400CE8FBC /* Avatar2.jpeg */; };
 		2AE6330829EFBADC00CE8FBC /* imogi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2AE6330729EFBADC00CE8FBC /* imogi.jpeg */; };
-		2AE6331029EFBC3500CE8FBC /* maths.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2AE6330F29EFBC3500CE8FBC /* maths.jpeg */; };
 		2AE6331229EFC00300CE8FBC /* MathsQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6331129EFC00300CE8FBC /* MathsQuizViewController.swift */; };
 		2AE6331429EFC01300CE8FBC /* ScienceQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6331329EFC01300CE8FBC /* ScienceQuizViewController.swift */; };
 		2AE6331629EFC14A00CE8FBC /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6331529EFC14A00CE8FBC /* AppViewController.swift */; };
 		2AE6331829EFC30C00CE8FBC /* bg2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2AE6331729EFC30C00CE8FBC /* bg2.jpeg */; };
-		2AE6331A29EFC79000CE8FBC /* GK.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2AE6331929EFC79000CE8FBC /* GK.jpeg */; };
 		2AE6331C29EFC7A600CE8FBC /* science.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2AE6331B29EFC7A600CE8FBC /* science.jpeg */; };
+		2AE6331E29F031AA00CE8FBC /* GK.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2AE6331D29F031AA00CE8FBC /* GK.jpeg */; };
+		2AE6332029F031B200CE8FBC /* maths.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2AE6331F29F031B200CE8FBC /* maths.jpeg */; };
 		BEE4811929D61930009348AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE4811829D61930009348AA /* AppDelegate.swift */; };
 		BEE4811B29D61930009348AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE4811A29D61930009348AA /* SceneDelegate.swift */; };
 		BEE4811D29D61930009348AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE4811C29D61930009348AA /* ViewController.swift */; };
@@ -40,13 +40,13 @@
 		2AE6330329EFA76400CE8FBC /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		2AE6330529EFBA5400CE8FBC /* Avatar2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Avatar2.jpeg; sourceTree = "<group>"; };
 		2AE6330729EFBADC00CE8FBC /* imogi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imogi.jpeg; sourceTree = "<group>"; };
-		2AE6330F29EFBC3500CE8FBC /* maths.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = maths.jpeg; path = ../../../../../../Downloads/maths.jpeg; sourceTree = "<group>"; };
 		2AE6331129EFC00300CE8FBC /* MathsQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathsQuizViewController.swift; sourceTree = "<group>"; };
 		2AE6331329EFC01300CE8FBC /* ScienceQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceQuizViewController.swift; sourceTree = "<group>"; };
 		2AE6331529EFC14A00CE8FBC /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
 		2AE6331729EFC30C00CE8FBC /* bg2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg2.jpeg; sourceTree = "<group>"; };
-		2AE6331929EFC79000CE8FBC /* GK.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = GK.jpeg; path = ../../../../../../Downloads/GK.jpeg; sourceTree = "<group>"; };
 		2AE6331B29EFC7A600CE8FBC /* science.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = science.jpeg; sourceTree = "<group>"; };
+		2AE6331D29F031AA00CE8FBC /* GK.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GK.jpeg; sourceTree = "<group>"; };
+		2AE6331F29F031B200CE8FBC /* maths.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maths.jpeg; sourceTree = "<group>"; };
 		BEE4811529D61930009348AA /* QuickCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE4811829D61930009348AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEE4811A29D61930009348AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,10 +136,10 @@
 		BEE4813029D619A4009348AA /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				2AE6331929EFC79000CE8FBC /* GK.jpeg */,
+				2AE6331F29F031B200CE8FBC /* maths.jpeg */,
+				2AE6331D29F031AA00CE8FBC /* GK.jpeg */,
 				2AE6331B29EFC7A600CE8FBC /* science.jpeg */,
 				2AE6331729EFC30C00CE8FBC /* bg2.jpeg */,
-				2AE6330F29EFBC3500CE8FBC /* maths.jpeg */,
 				2AE6330729EFBADC00CE8FBC /* imogi.jpeg */,
 				2AE6330529EFBA5400CE8FBC /* Avatar2.jpeg */,
 				2AE632E329EF75FB00CE8FBC /* launch.jpeg */,
@@ -220,13 +220,13 @@
 				2AE6331C29EFC7A600CE8FBC /* science.jpeg in Resources */,
 				2AE6330029EFA56D00CE8FBC /* trophy.png in Resources */,
 				2AE6330829EFBADC00CE8FBC /* imogi.jpeg in Resources */,
+				2AE6331E29F031AA00CE8FBC /* GK.jpeg in Resources */,
 				BEE4812529D61931009348AA /* LaunchScreen.storyboard in Resources */,
 				BEE4812229D61931009348AA /* Assets.xcassets in Resources */,
-				2AE6331A29EFC79000CE8FBC /* GK.jpeg in Resources */,
 				2AE632E429EF75FB00CE8FBC /* launch.jpeg in Resources */,
 				BEE4812029D61930009348AA /* Main.storyboard in Resources */,
-				2AE6331029EFBC3500CE8FBC /* maths.jpeg in Resources */,
 				2AE6331829EFC30C00CE8FBC /* bg2.jpeg in Resources */,
+				2AE6332029F031B200CE8FBC /* maths.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
