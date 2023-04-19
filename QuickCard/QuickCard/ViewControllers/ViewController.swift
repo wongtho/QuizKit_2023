@@ -11,13 +11,10 @@ class ViewController: UIViewController {
 
     @IBOutlet var StartButton : UIButton!
 
-    @IBAction func unwindToAppViewController(sender : UIStoryboardSegue){
-        
-    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         
         StartButton.layer.cornerRadius = 26
         StartButton.layer.masksToBounds = true

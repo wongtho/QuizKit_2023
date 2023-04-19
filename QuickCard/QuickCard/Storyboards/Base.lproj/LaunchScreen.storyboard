@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="questionmark.app" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="WdJ-uY-k5q">
-                                <rect key="frame" x="76" y="339.66666666666674" width="240" height="174"/>
+                                <rect key="frame" x="76" y="339" width="240" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemIndigoColor"/>
                             </imageView>
