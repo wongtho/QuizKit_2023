@@ -4,6 +4,7 @@
 //
 //  Created by  on 2023-03-30.
 //
+
 import UIKit
 import SQLite3
 
@@ -53,6 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     let data: ScoreData = .init()
                     data.initWithDatabase(theRow: id, theCategory: category, theScore: score)
                     quizScore.append(data)
+                    print(category + " | " + String(score))
                 }
                 sqlite3_finalize(queryStatement)
             } else {
@@ -131,3 +133,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+

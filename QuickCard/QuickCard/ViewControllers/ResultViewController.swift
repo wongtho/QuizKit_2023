@@ -30,5 +30,9 @@ class ResultViewController: UIViewController {
     @IBAction func backPressed(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
     }
+    //go back to result without reinitialization from leaderboard screen
+    @IBAction func unwindToResultViewController(sender : UIStoryboardSegue) {
+        
+    }
 }
 

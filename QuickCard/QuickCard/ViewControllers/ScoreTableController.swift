@@ -18,9 +18,9 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let tableCell: EasyTableCell = tableView.dequeueReusableCell(withIdentifier: "easycell") as? EasyTableCell ?? EasyTableCell(style: .default, reuseIdentifier: "easycell")
-        
+        //populate with data
         tableCell.categoryLabel.text = mainDelegate.quizScore[indexPath.row].category
-        tableCell.scoreLabel?.text = "\(mainDelegate.quizScore[indexPath.row].score)"
+        tableCell.scoreLabel.text = "\(mainDelegate.quizScore[indexPath.row].score!)"
         return tableCell
     }
     //set row heigh

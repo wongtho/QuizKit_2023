@@ -22,6 +22,12 @@
 		2AE6331C29EFC7A600CE8FBC /* science.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2AE6331B29EFC7A600CE8FBC /* science.jpeg */; };
 		2AE6331E29F031AA00CE8FBC /* GK.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2AE6331D29F031AA00CE8FBC /* GK.jpeg */; };
 		2AE6332029F031B200CE8FBC /* maths.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2AE6331F29F031B200CE8FBC /* maths.jpeg */; };
+		5CE1B01229F0370000C7AB12 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE4813229D619F9009348AA /* libsqlite3.0.tbd */; };
+		5CE1B01329F0370000C7AB12 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE1B01129F036EF00C7AB12 /* libsqlite3.tbd */; };
+		5CE1B01829F0389A00C7AB12 /* QuickCard.db in Resources */ = {isa = PBXBuildFile; fileRef = 5CE1B01729F0389A00C7AB12 /* QuickCard.db */; };
+		5CE1B01A29F03A4F00C7AB12 /* ScoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1B01929F03A4F00C7AB12 /* ScoreData.swift */; };
+		5CE1B01C29F048A300C7AB12 /* EasyTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1B01B29F048A300C7AB12 /* EasyTableCell.swift */; };
+		5CE1B01E29F048FF00C7AB12 /* ScoreTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1B01D29F048FF00C7AB12 /* ScoreTableController.swift */; };
 		BEE4811929D61930009348AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE4811829D61930009348AA /* AppDelegate.swift */; };
 		BEE4811B29D61930009348AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE4811A29D61930009348AA /* SceneDelegate.swift */; };
 		BEE4811D29D61930009348AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE4811C29D61930009348AA /* ViewController.swift */; };
@@ -47,6 +53,11 @@
 		2AE6331B29EFC7A600CE8FBC /* science.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = science.jpeg; sourceTree = "<group>"; };
 		2AE6331D29F031AA00CE8FBC /* GK.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GK.jpeg; sourceTree = "<group>"; };
 		2AE6331F29F031B200CE8FBC /* maths.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maths.jpeg; sourceTree = "<group>"; };
+		5CE1B01129F036EF00C7AB12 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		5CE1B01729F0389A00C7AB12 /* QuickCard.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = QuickCard.db; sourceTree = "<group>"; };
+		5CE1B01929F03A4F00C7AB12 /* ScoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreData.swift; sourceTree = "<group>"; };
+		5CE1B01B29F048A300C7AB12 /* EasyTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyTableCell.swift; sourceTree = "<group>"; };
+		5CE1B01D29F048FF00C7AB12 /* ScoreTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTableController.swift; sourceTree = "<group>"; };
 		BEE4811529D61930009348AA /* QuickCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE4811829D61930009348AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEE4811A29D61930009348AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,12 +75,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CE1B01329F0370000C7AB12 /* libsqlite3.tbd in Frameworks */,
+				5CE1B01229F0370000C7AB12 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CE1B01429F0372800C7AB12 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				5CE1B01729F0389A00C7AB12 /* QuickCard.db */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
 		BEE4810C29D61930009348AA = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +111,7 @@
 		BEE4811729D61930009348AA /* QuickCard */ = {
 			isa = PBXGroup;
 			children = (
+				5CE1B01429F0372800C7AB12 /* Database */,
 				BEE4813029D619A4009348AA /* Images */,
 				2AE632E529EF7B4800CE8FBC /* Logo.jpg */,
 				BEE4812F29D61999009348AA /* Storyboards */,
@@ -106,6 +128,8 @@
 				BEE4813529D625A3009348AA /* User.swift */,
 				BEE4811A29D61930009348AA /* SceneDelegate.swift */,
 				BEE4811829D61930009348AA /* AppDelegate.swift */,
+				5CE1B01929F03A4F00C7AB12 /* ScoreData.swift */,
+				5CE1B01B29F048A300C7AB12 /* EasyTableCell.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -120,6 +144,7 @@
 				2AE6331129EFC00300CE8FBC /* MathsQuizViewController.swift */,
 				2AE6331329EFC01300CE8FBC /* ScienceQuizViewController.swift */,
 				2AE6331529EFC14A00CE8FBC /* AppViewController.swift */,
+				5CE1B01D29F048FF00C7AB12 /* ScoreTableController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -152,6 +177,7 @@
 		BEE4813129D619F9009348AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5CE1B01129F036EF00C7AB12 /* libsqlite3.tbd */,
 				BEE4813229D619F9009348AA /* libsqlite3.0.tbd */,
 			);
 			name = Frameworks;
@@ -224,6 +250,7 @@
 				BEE4812529D61931009348AA /* LaunchScreen.storyboard in Resources */,
 				BEE4812229D61931009348AA /* Assets.xcassets in Resources */,
 				2AE632E429EF75FB00CE8FBC /* launch.jpeg in Resources */,
+				5CE1B01829F0389A00C7AB12 /* QuickCard.db in Resources */,
 				BEE4812029D61930009348AA /* Main.storyboard in Resources */,
 				2AE6331829EFC30C00CE8FBC /* bg2.jpeg in Resources */,
 				2AE6332029F031B200CE8FBC /* maths.jpeg in Resources */,
@@ -241,11 +268,14 @@
 				BEE4813629D625A3009348AA /* User.swift in Sources */,
 				2AE632E829EF867B00CE8FBC /* QuizViewController.swift in Sources */,
 				BEE4811D29D61930009348AA /* ViewController.swift in Sources */,
+				5CE1B01E29F048FF00C7AB12 /* ScoreTableController.swift in Sources */,
 				BEE4811929D61930009348AA /* AppDelegate.swift in Sources */,
 				2AE6331429EFC01300CE8FBC /* ScienceQuizViewController.swift in Sources */,
 				BEE4811B29D61930009348AA /* SceneDelegate.swift in Sources */,
 				2AE6331229EFC00300CE8FBC /* MathsQuizViewController.swift in Sources */,
+				5CE1B01C29F048A300C7AB12 /* EasyTableCell.swift in Sources */,
 				2AE6330429EFA76400CE8FBC /* LaunchViewController.swift in Sources */,
+				5CE1B01A29F03A4F00C7AB12 /* ScoreData.swift in Sources */,
 				2AE6330229EFA6F700CE8FBC /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
